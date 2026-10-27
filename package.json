@@ -1,0 +1,15 @@
+{
+  "name": "homeledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A digital record of everything important about your house.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test tests/",
+    "sync": "npm run build && cap sync",
+    "android": "npm run sync && cap open android",
+    "ios": "npm run sync && cap open ios"
+  }
+}
