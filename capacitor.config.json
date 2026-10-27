@@ -1,0 +1,11 @@
+{
+  "appId": "com.homeledger.app",
+  "appName": "HomeLedger",
+  "webDir": "dist",
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_homeledger",
+      "iconColor": "#0B6E8A"
+    }
+  }
+}
